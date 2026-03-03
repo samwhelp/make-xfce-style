@@ -120,10 +120,10 @@ REF_MASTER_STYLE=jasper bash <(curl -L https://raw.githubusercontent.com/samwhel
 
 | REF_MASTER_STYLE    |
 | ------------------- |
-| `fluent` (default)  |
-| `colloid`           |
-| `jasper`            |
+| `jasper` (default)  |
 | `graphite`          |
+| `fluent`            |
+| `colloid`           |
 | `vimix`             |
 | `orchis`            |
 | `layan`             |
