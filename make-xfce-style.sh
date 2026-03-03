@@ -2099,6 +2099,20 @@ sys_style_install_for_qogir () {
 
 sys_style_config_install_for_qogir () {
 
+
+sys_xfce_settings_wm_theme_set "Qogir-Dark"
+
+sys_xfce_settings_ui_theme_set "Qogir-Dark"
+
+sys_xfce_settings_icon_theme_set "Citrus-red-dark"
+
+sys_xfce_settings_cursor_theme_set "Vimix-cursors"
+
+sys_xfce_settings_cursor_theme_set "24"
+
+
+
+
 dconf load / << __EOF__
 
 
