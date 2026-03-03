@@ -142,6 +142,21 @@ REF_MASTER_STYLE=vimix bash <(curl -L https://raw.githubusercontent.com/samwhelp
 
 
 
+## Related Projects
+
+| Link | GitHub |
+| ---- | ------ |
+| [make-gnome-shell-layout-wincity](https://samwhelp.github.io/make-gnome-shell-layout-wincity/) | [GitHub](https://github.com/samwhelp/make-gnome-shell-layout-wincity) |
+| [make-gnome-shell-layout-maccity](https://samwhelp.github.io/make-gnome-shell-layout-maccity/) | [GitHub](https://github.com/samwhelp/make-gnome-shell-layout-maccity) |
+
+
+| Link |
+| ---- |
+| [demo-style-select](https://github.com/samwhelp/note-about-menu-applet/tree/gh-pages/_demo/prototype/menu-applet/demo-application/demo-style-select) |
+
+
+
+
 ## Samwhelp
 
 * [GitHub](https://github.com/samwhelp)
