@@ -1485,6 +1485,20 @@ sys_style_install_for_graphite () {
 
 sys_style_config_install_for_graphite () {
 
+
+sys_xfce_settings_wm_theme_set "Graphite-Dark"
+
+sys_xfce_settings_ui_theme_set "Graphite-Dark"
+
+sys_xfce_settings_icon_theme_set "GreyStone-Circle"
+
+sys_xfce_settings_cursor_theme_set "Graphite-dark-cursors"
+
+sys_xfce_settings_cursor_theme_set "24"
+
+
+
+
 dconf load / << __EOF__
 
 
