@@ -87,9 +87,9 @@ is_command_exist () {
 ##
 ## xfconf-query --list
 ##
-## xfconf-query --list --channel xfwm4
+## xfconf-query --list --channel "xfwm4"
 ##
-## xfconf-query --list --channel xsettings
+## xfconf-query --list --channel "xsettings"
 ##
 
 
@@ -101,7 +101,7 @@ is_command_exist () {
 
 sys_xfce_settings_wm_theme_get () {
 
-	xfconf-query --channel xfwm4 --property "/general/theme"
+	xfconf-query --channel "xfwm4" --property "/general/theme"
 
 }
 
@@ -109,7 +109,7 @@ sys_xfce_settings_wm_theme_set () {
 
 	local the_val="${1}"
 
-	xfconf-query --channel xfwm4 --property "/general/theme" --create --type "string" --set "${the_val}"
+	xfconf-query --channel "xfwm4" --property "/general/theme" --create --type "string" --set "${the_val}"
 
 }
 
@@ -122,7 +122,7 @@ sys_xfce_settings_wm_theme_set () {
 
 sys_xfce_settings_ui_theme_get () {
 
-	xfconf-query --channel xsettings --property "/Net/ThemeName"
+	xfconf-query --channel "xsettings" --property "/Net/ThemeName"
 
 }
 
@@ -130,7 +130,7 @@ sys_xfce_settings_ui_theme_set () {
 
 	local the_val="${1}"
 
-	xfconf-query --channel xsettings --property "/Net/ThemeName" --create --type "string" --set "${the_val}"
+	xfconf-query --channel "xsettings" --property "/Net/ThemeName" --create --type "string" --set "${the_val}"
 
 }
 
@@ -143,7 +143,7 @@ sys_xfce_settings_ui_theme_set () {
 
 sys_xfce_settings_icon_theme_get () {
 
-	xfconf-query --channel xsettings --property "/Net/IconThemeName"
+	xfconf-query --channel "xsettings" --property "/Net/IconThemeName"
 
 }
 
@@ -151,7 +151,7 @@ sys_xfce_settings_icon_theme_set () {
 
 	local the_val="${1}"
 
-	xfconf-query --channel xsettings --property "/Net/IconThemeName" --create --type "string" --set "${the_val}"
+	xfconf-query --channel "xsettings" --property "/Net/IconThemeName" --create --type "string" --set "${the_val}"
 
 }
 
@@ -164,7 +164,7 @@ sys_xfce_settings_icon_theme_set () {
 
 sys_xfce_settings_cursor_theme_get () {
 
-	xfconf-query --channel xsettings --property "/Gtk/CursorThemeName"
+	xfconf-query --channel "xsettings" --property "/Gtk/CursorThemeName"
 
 }
 
@@ -172,7 +172,7 @@ sys_xfce_settings_cursor_theme_set () {
 
 	local the_val="${1}"
 
-	xfconf-query --channel xsettings --property "/Gtk/CursorThemeName" --create --type "string" --set "${the_val}"
+	xfconf-query --channel "xsettings" --property "/Gtk/CursorThemeName" --create --type "string" --set "${the_val}"
 
 }
 
@@ -185,7 +185,7 @@ sys_xfce_settings_cursor_theme_set () {
 
 sys_xfce_settings_cursor_size_get () {
 
-	xfconf-query --channel xsettings --property "/Gtk/CursorThemeSize"
+	xfconf-query --channel "xsettings" --property "/Gtk/CursorThemeSize"
 
 }
 
@@ -193,7 +193,7 @@ sys_xfce_settings_cursor_size_set () {
 
 	local the_val="${1}"
 
-	xfconf-query --channel xsettings --property "/Gtk/CursorThemeSize" --create --type "int" --set "${the_val}"
+	xfconf-query --channel "xsettings" --property "/Gtk/CursorThemeSize" --create --type "int" --set "${the_val}"
 
 }
 
