@@ -682,7 +682,7 @@ sys_xfce_settings_icon_theme_set "Fluent-dark"
 
 sys_xfce_settings_cursor_theme_set "Fluent-dark-cursors"
 
-sys_xfce_settings_cursor_theme_set "24"
+sys_xfce_settings_cursor_size_set "24"
 
 
 
@@ -891,7 +891,7 @@ sys_xfce_settings_icon_theme_set "Colloid-Dark"
 
 sys_xfce_settings_cursor_theme_set "Colloid-dark-cursors"
 
-sys_xfce_settings_cursor_theme_set "24"
+sys_xfce_settings_cursor_size_set "24"
 
 
 
@@ -1100,7 +1100,7 @@ sys_xfce_settings_icon_theme_set "Citrus-red-dark"
 
 sys_xfce_settings_cursor_theme_set "Vimix-cursors"
 
-sys_xfce_settings_cursor_theme_set "24"
+sys_xfce_settings_cursor_size_set "24"
 
 
 
@@ -1494,7 +1494,7 @@ sys_xfce_settings_icon_theme_set "GreyStone-Circle"
 
 sys_xfce_settings_cursor_theme_set "Graphite-dark-cursors"
 
-sys_xfce_settings_cursor_theme_set "24"
+sys_xfce_settings_cursor_size_set "24"
 
 
 
@@ -1648,7 +1648,7 @@ sys_xfce_settings_icon_theme_set "QuestX-Teal"
 
 sys_xfce_settings_cursor_theme_set "Vimix-cursors"
 
-sys_xfce_settings_cursor_theme_set "24"
+sys_xfce_settings_cursor_size_set "24"
 
 
 
@@ -1763,7 +1763,7 @@ sys_xfce_settings_icon_theme_set "Citrus-red-dark"
 
 sys_xfce_settings_cursor_theme_set "Vimix-cursors"
 
-sys_xfce_settings_cursor_theme_set "24"
+sys_xfce_settings_cursor_size_set "24"
 
 
 
@@ -1878,7 +1878,7 @@ sys_xfce_settings_icon_theme_set "Citrus-red-dark"
 
 sys_xfce_settings_cursor_theme_set "Vimix-cursors"
 
-sys_xfce_settings_cursor_theme_set "24"
+sys_xfce_settings_cursor_size_set "24"
 
 
 
@@ -1993,7 +1993,7 @@ sys_xfce_settings_icon_theme_set "Citrus-red-dark"
 
 sys_xfce_settings_cursor_theme_set "Vimix-cursors"
 
-sys_xfce_settings_cursor_theme_set "24"
+sys_xfce_settings_cursor_size_set "24"
 
 
 
@@ -2108,7 +2108,7 @@ sys_xfce_settings_icon_theme_set "Citrus-red-dark"
 
 sys_xfce_settings_cursor_theme_set "Vimix-cursors"
 
-sys_xfce_settings_cursor_theme_set "24"
+sys_xfce_settings_cursor_size_set "24"
 
 
 
