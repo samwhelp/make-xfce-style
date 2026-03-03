@@ -34,14 +34,14 @@ style-default:
 
 
 
-style-graphite:
-	REF_MASTER_DISTRO=any REF_MASTER_STYLE=graphite ./make-xfce-style.sh
-.PHONY: style-graphite
-
-
 style-jasper:
 	REF_MASTER_DISTRO=any REF_MASTER_STYLE=jasper ./make-xfce-style.sh
 .PHONY: style-jasper
+
+
+style-graphite:
+	REF_MASTER_DISTRO=any REF_MASTER_STYLE=graphite ./make-xfce-style.sh
+.PHONY: style-graphite
 
 
 style-fluent:
