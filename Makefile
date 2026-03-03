@@ -108,26 +108,26 @@ distro-voidlinux:
 
 
 
-distro-ubuntu-style-jasper:
-	REF_MASTER_DISTRO=ubuntu REF_MASTER_STYLE=jasper ./make-xfce-style.sh
-.PHONY: distro-ubuntu-style-jasper
+distro-ubuntu-style-vimix:
+	REF_MASTER_DISTRO=ubuntu REF_MASTER_STYLE=vimix ./make-xfce-style.sh
+.PHONY: distro-ubuntu-style-vimix
 
 
-distro-debian-style-jasper:
-	REF_MASTER_DISTRO=debian REF_MASTER_STYLE=jasper ./make-xfce-style.sh
-.PHONY: distro-debian-style-jasper
+distro-debian-style-vimix:
+	REF_MASTER_DISTRO=debian REF_MASTER_STYLE=vimix ./make-xfce-style.sh
+.PHONY: distro-debian-style-vimix
 
 
-distro-fedora-style-jasper:
-	REF_MASTER_DISTRO=fedora REF_MASTER_STYLE=jasper ./make-xfce-style.sh
-.PHONY: distro-fedora-style-jasper
+distro-fedora-style-vimix:
+	REF_MASTER_DISTRO=fedora REF_MASTER_STYLE=vimix ./make-xfce-style.sh
+.PHONY: distro-fedora-style-vimix
 
 
-distro-archlinux-style-jasper:
-	REF_MASTER_DISTRO=archlinux REF_MASTER_STYLE=jasper ./make-xfce-style.sh
-.PHONY: distro-archlinux-style-jasper
+distro-archlinux-style-vimix:
+	REF_MASTER_DISTRO=archlinux REF_MASTER_STYLE=vimix ./make-xfce-style.sh
+.PHONY: distro-archlinux-style-vimix
 
 
-distro-voidlinux-style-jasper:
-	REF_MASTER_DISTRO=voidlinux REF_MASTER_STYLE=jasper ./make-xfce-style.sh
-.PHONY: distro-voidlinux-style-jasper
+distro-voidlinux-style-vimix:
+	REF_MASTER_DISTRO=voidlinux REF_MASTER_STYLE=vimix ./make-xfce-style.sh
+.PHONY: distro-voidlinux-style-vimix
