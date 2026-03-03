@@ -673,6 +673,20 @@ sys_style_install_for_fluent () {
 
 sys_style_config_install_for_fluent () {
 
+
+sys_xfce_settings_wm_theme_set "Fluent-round-Dark"
+
+sys_xfce_settings_ui_theme_set "Fluent-round-Dark"
+
+sys_xfce_settings_icon_theme_set "Fluent-dark"
+
+sys_xfce_settings_cursor_theme_set "Fluent-dark-cursors"
+
+sys_xfce_settings_cursor_theme_set "24"
+
+
+
+
 dconf load / << __EOF__
 
 
