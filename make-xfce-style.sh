@@ -1639,6 +1639,20 @@ sys_style_install_for_jasper () {
 
 sys_style_config_install_for_jasper () {
 
+
+sys_xfce_settings_wm_theme_set "Jasper-Dark"
+
+sys_xfce_settings_ui_theme_set "Jasper-Dark"
+
+sys_xfce_settings_icon_theme_set "QuestX-Teal"
+
+sys_xfce_settings_cursor_theme_set "Vimix-cursors"
+
+sys_xfce_settings_cursor_theme_set "24"
+
+
+
+
 dconf load / << __EOF__
 
 
