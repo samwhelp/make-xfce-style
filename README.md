@@ -88,13 +88,13 @@ REF_MASTER_DISTRO=archlinux bash <(curl -L https://raw.githubusercontent.com/sam
 * execute local script
 
 ``` sh
-REF_MASTER_STYLE=jasper ./make-xfce-style.sh
+REF_MASTER_STYLE=vimix ./make-xfce-style.sh
 ```
 
 * execute remote script
 
 ``` sh
-REF_MASTER_STYLE=jasper bash <(curl -L https://raw.githubusercontent.com/samwhelp/make-xfce-style/refs/heads/main/make-xfce-style.sh)
+REF_MASTER_STYLE=vimix bash <(curl -L https://raw.githubusercontent.com/samwhelp/make-xfce-style/refs/heads/main/make-xfce-style.sh)
 ```
 
 
