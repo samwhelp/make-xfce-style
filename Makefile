@@ -13,6 +13,7 @@ help:
 	@echo '	$$ make style-default'
 	@echo
 	@echo '	$$ make style-jasper'
+	@echo '	$$ make style-graphite'
 	@echo '	$$ make style-fluent'
 	@echo '	$$ make style-colloid'
 	@echo '	$$ make style-vimix'
@@ -31,6 +32,11 @@ style-default:
 .PHONY: style-default
 
 
+
+
+style-graphite:
+	REF_MASTER_DISTRO=any REF_MASTER_STYLE=graphite ./make-xfce-style.sh
+.PHONY: style-graphite
 
 
 style-jasper:
