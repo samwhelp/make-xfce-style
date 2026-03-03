@@ -83,13 +83,13 @@ REF_MASTER_DISTRO=archlinux bash <(curl -L https://raw.githubusercontent.com/sam
 * execute local script
 
 ``` sh
-REF_MASTER_STYLE=jasper ./make-xfce-style.sh
+REF_MASTER_STYLE=vimix ./make-xfce-style.sh
 ```
 
 * execute remote script
 
 ``` sh
-REF_MASTER_STYLE=jasper bash <(curl -L https://raw.githubusercontent.com/samwhelp/make-xfce-style/refs/heads/main/make-xfce-style.sh)
+REF_MASTER_STYLE=vimix bash <(curl -L https://raw.githubusercontent.com/samwhelp/make-xfce-style/refs/heads/main/make-xfce-style.sh)
 ```
 
 
@@ -115,10 +115,10 @@ REF_MASTER_STYLE=jasper bash <(curl -L https://raw.githubusercontent.com/samwhel
 
 | REF_MASTER_STYLE    |
 | ------------------- |
-| `fluent` (default)  |
-| `colloid`           |
-| `jasper`            |
+| `jasper` (default)  |
 | `graphite`          |
+| `fluent`            |
+| `colloid`           |
 | `vimix`             |
 | `orchis`            |
 | `layan`             |
@@ -133,6 +133,21 @@ REF_MASTER_STYLE=jasper bash <(curl -L https://raw.githubusercontent.com/samwhel
 | Link | GitHub |
 | ---- | ------ |
 | [Xfce Adjustment](https://samwhelp.github.io/xfce-adjustment/) | [GitHub](https://github.com/samwhelp/xfce-adjustment) |
+
+
+
+
+## Related Projects
+
+| Link | GitHub |
+| ---- | ------ |
+| [make-gnome-shell-layout-wincity](https://samwhelp.github.io/make-gnome-shell-layout-wincity/) | [GitHub](https://github.com/samwhelp/make-gnome-shell-layout-wincity) |
+| [make-gnome-shell-layout-maccity](https://samwhelp.github.io/make-gnome-shell-layout-maccity/) | [GitHub](https://github.com/samwhelp/make-gnome-shell-layout-maccity) |
+
+
+| Link |
+| ---- |
+| [demo-style-select](https://github.com/samwhelp/note-about-menu-applet/tree/gh-pages/_demo/prototype/menu-applet/demo-application/demo-style-select) |
 
 
 
