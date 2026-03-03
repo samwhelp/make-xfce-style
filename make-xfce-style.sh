@@ -882,6 +882,20 @@ sys_style_install_for_colloid () {
 
 sys_style_config_install_for_colloid () {
 
+
+sys_xfce_settings_wm_theme_set "Colloid-Dark"
+
+sys_xfce_settings_ui_theme_set "Colloid-Dark"
+
+sys_xfce_settings_icon_theme_set "Colloid-Dark"
+
+sys_xfce_settings_cursor_theme_set "Colloid-dark-cursors"
+
+sys_xfce_settings_cursor_theme_set "24"
+
+
+
+
 dconf load / << __EOF__
 
 
