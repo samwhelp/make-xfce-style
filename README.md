@@ -156,6 +156,12 @@ REF_MASTER_STYLE=vimix bash <(curl -L https://raw.githubusercontent.com/samwhelp
 | make-gnome-shell-layout-maccity / [make-gnome-shell-style](https://github.com/samwhelp/make-gnome-shell-layout-maccity/tree/main/part/make-gnome-shell-style) |
 
 
+| Link | GitHub |
+| ---- | ------ |
+| [deb-recipe](https://samwhelp.github.io/deb-recipe/) | [GitHub](https://github.com/samwhelp/deb-recipe) |
+| [deb-coffee](https://samwhelp.github.io/deb-coffee/) | [GitHub](https://github.com/samwhelp/deb-coffee) |
+
+
 
 
 ## Samwhelp
