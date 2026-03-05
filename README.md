@@ -147,6 +147,9 @@ REF_MASTER_STYLE=vimix bash <(curl -L https://raw.githubusercontent.com/samwhelp
 | Link | GitHub |
 | ---- | ------ |
 | [make-gnome-shell-style](https://samwhelp.github.io/make-gnome-shell-style/) | [GitHub](https://github.com/samwhelp/make-gnome-shell-style) |
+| [make-xfce-style](https://samwhelp.github.io/make-xfce-style/) | [GitHub](https://github.com/samwhelp/make-xfce-style) |
+| [make-mate-style](https://samwhelp.github.io/make-mate-style/) | [GitHub](https://github.com/samwhelp/make-mate-style) |
+| [make-cinnamon-style](https://samwhelp.github.io/make-cinnamon-style/) | [GitHub](https://github.com/samwhelp/make-cinnamon-style) |
 
 
 | Link |
